@@ -12,7 +12,7 @@ LABEL "maintainer"="Bruno Tavares <connect+githubactions@bltavares.com>"
 RUN apt-get update -qq && apt-get install -qqy --no-install-recommends \
   curl=7.* \
   jq=1.* \
-  bash=4.* \
+  bash=5.* \
   git=1:2.* \
   && rm -rf /var/lib/apt/lists/*
 
